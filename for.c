@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    for (int i = 1; i <= 3; i++) {
-        printf("Jump %d\n", i);
+    int i = 10;
+    while (i >= 1) {
+        printf(" %d\n", i);
+        i--;
     }
     return 0;
 } 
